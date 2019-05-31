@@ -1,0 +1,28 @@
+{
+	"vs-chip/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Change the color of the chip",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-chip/closable": {
+		"description": "With closable button",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"vs-chip/icon": {
+		"description": "Determine the chip icon",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-chip/iconPack": {
+		"description": "Determines if the icon is set after the text",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-chip/closeIcon": {
+		"description": "provides an icon for the button to close chip.",
+		"optionType": "String",
+		"defaultValue": "clear"
+	}
+}

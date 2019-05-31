@@ -1,0 +1,78 @@
+{
+	"vs-button/type": {
+		"options": ["filled", "border", "flat", "line", "gradient", "relief"],
+		"description": "The type of button to use",
+		"optionType": "String",
+		"defaultValue": "filled"
+	},
+	"vs-button/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Change the color of the button",
+		"optionType": "String",
+		"defaultValue": "primary"
+	},
+	"vs-button/textColor": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Change the font color of the button",
+		"optionType": "String",
+		"defaultValue": "primary"
+	},
+	"vs-button/icon": {
+		"description": "Determine the button icon",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-button/iconPack": {
+		"description": "Determines if the icon is set after the text",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-button/iconAfter": {
+		"description": "Determines if the icon is set after the text",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"vs-button/lineOrigin": {
+		"options": ["left", "center", "right"],
+		"description": "Determines the output of the line on the button (line)",
+		"optionType": "String",
+		"defaultValue": "center"
+	},
+	"vs-button/linePosition": {
+		"options": ["top"],
+		"description": "Determine if the button (line) has the line up or down",
+		"optionType": "String",
+		"defaultValue": "center"
+	},
+	"vs-button/gradientDirection": {
+		"description": "Determine the angle of the gradient on the button",
+		"optionType": "String",
+		"defaultValue": "30deg"
+	},
+	"vs-button/gradientColorSecondary": {
+		"description": "Change the secondary color on the button (gradient)",
+		"optionType": "String",
+		"defaultValue": "primary"
+	},
+	"vs-button/radius": {
+		"description": "Change button radius to circle",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"vs-button/to": {
+		"description": "Added router push navigation to button",
+		"optionType": "String | Object",
+		"defaultValue": "-"
+	},
+	"vs-button/href": {
+		"description": "Added href property to button",
+		"optionType": "String | Object",
+		"defaultValue": "-"
+	},
+	"vs-button/target": {
+		"description": "Presence or absence of target property",
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+	
+}

@@ -1,0 +1,12 @@
+{
+	"vs-card/fixedHeight": {
+		"description": "Set the card with 100% of height.",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	},
+	"vs-card/actionable": {
+		"description": "Hover effect.",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"vs-colapse-item/notArrow": {
+		"description": "remove the arrow from the item.",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-colapse-item/disabled": {
+		"description": "If true, panel cannot be opened or closed",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-colapse-item/iconArrow": {
+		"description": "Change the icons of items.",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-colapse-item/open": {
+		"description": "Start the open item.",
+		"optionType": "Boolean",
+		"defaultValue": "false"
+	}
+}

@@ -1,0 +1,94 @@
+{
+    "Vuesax Import":{
+      "prefix": ["vsImport", "vuesaxImport"],
+      "body": [
+        "import Vuesax from 'vuesax'"
+      ],
+      "description": "Vuesax Import"
+    },
+    "Vuesax css import":{
+      "prefix": ["vsCss", "vuesaxImportCss"],
+      "body": [
+        "import 'vuesax/dist/vuesax.css'"
+      ],
+      "description": "Vuesax css import"
+    },
+    "Vuesax all import":{
+      "prefix": ["vsImportAll", "vuesaxImportAll"],
+      "body": [
+        "\timport Vuesax from 'vuesax'",
+        "\timport 'vuesax/dist/vuesax.css'",
+        "\tVue.use(Vuesax)"
+      ],
+      "description": "Vuesax All import, (js, css)"
+    },
+    "notification": {
+      "prefix": ["notify", "$vs.notify"],
+      "body": [
+        "this.\\$vs.notify({",
+        "\ttitle: '${1:title}',",
+        "\ttext: '${2:string}',",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "});"
+      ],
+      "description": "notification"
+    },
+    "loading": {
+      "prefix": ["loading", "$vs.loading"],
+      "body": [
+        "this.\\$vs.loading()"
+      ],
+      "description": "Loading"
+    },
+    "loading Close": {
+      "prefix": ["loadingClose", "$vs.loading.close"],
+      "body": [
+        "this.\\$vs.loading.close()"
+      ],
+      "description": "Loading Close"
+    },
+    "loading container": {
+      "prefix": ["loadingContainer", "$vs.loading"],
+      "body": [
+        "this.\\$vs.loading({",
+        "\tcontainer: '${1|#id,.class|}',",
+        "\ttype: '${2|point,radius,corners,border,sound,material|}',",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "});"
+      ],
+      "description": "Loading Container"
+    },
+    "dialog alert": {
+      "prefix": ["dialog", "$vs.dialog"],
+      "body": [
+        "this.\\$vs.dialog({",
+        "\ttitle: '${1:title}',",
+        "\ttext: '${2:string}',",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "\taccept: () => {",
+        "\t\t${4:console.log('Accept Dialog')}",
+        "\t}",
+        "});"
+      ],
+      "description": "dialog alert"
+    },
+    "dialog confirm": {
+      "prefix": ["dialog", "$vs.dialog:confirm"],
+      "body": [
+        "this.\\$vs.dialog({",
+        "\ttype: 'confirm',",
+        "\ttitle: '${1:title}',",
+        "\ttext: '${2:string}',",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "\taccept: () => {",
+        "\t\t${4:console.log('Accept Dialog')}",
+        "\t}",
+        "\tcancel: () => {",
+        "\t\t${4:console.log('Cancel Dialog')}",
+        "\t}",
+        "});"
+      ],
+      "description": "dialog confirm"
+    },
+    
+  }

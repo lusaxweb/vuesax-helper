@@ -1,0 +1,67 @@
+{
+  "vs-alert": {
+    "defaults": ["title"],
+    "attributes": [
+      "active","title","closable","color",
+      "icon","closeIcon","iconPack"
+    ],
+    "description": "Alert component for feedback."
+  },
+  "vs-avatar": {
+    "min": true,
+    "defaults": ["src"],
+    "attributes": [
+      "text","text-color","src","size","color","badge", "badge-color", "icon", "iconPack"
+    ],
+    "description": "Avatars can be used to represent people or objects. It supports images, ‘Icon’s, or letters."
+  },
+  "vs-breadcrumb": {
+    "attributes": ["items", "separator", "align", "color"],
+    "description": "a breadcrumb displays the current location within a hierarchy. It allows going back to states higher up in the hierarchy."
+  },
+  "vs-button": {
+    "defaults": ["type"],
+    "innerText": "Text",
+    "attributes": ["type", "color", "textColor", "icon", "iconPack", "iconAfter", "lineOrigin", "linePosition", "gradientDirection", "gradientColorSecondary", "radius", "to", "href", "target"],
+    "description": "to trigger an operation"
+  },
+  "vs-card": {
+    "attributes": [
+      "fixedHeight","actionable"
+    ],
+    "description": "Simple rectangular container."
+  },
+  "vs-checkbox": {
+    "attributes": [
+      "color","vsValue","icon",
+      "iconPack"
+    ],
+    "description": "Checkbox component"
+  },
+  "vs-chip": {
+    "attributes": [
+      "color","closable","icon", "iconPack", "closeIcon"
+    ],
+    "description": "Tag for categorizing or markup."
+  },
+  "vs-collapse": {
+    "subtags": ["vs-collapse-item"],
+    "attributes": [
+      "accordion","type","openHover","iconPack"
+    ],
+    "description": "A content area which can be collapsed and expanded."
+  },
+  "vs-collapse-item": {
+    "attributes": [
+      "notArrow","disabled","iconArrow","open"
+    ],
+    "description": "A content area which can be collapsed and expanded Item."
+  },
+  "vs-divider": {
+    "attributes": [
+      "position","color","icon","borderStyle","iconPack"
+    ],
+    "innerText": "Text",
+    "description": "Divide text or section components with some great features and quick to implement."
+  }
+}

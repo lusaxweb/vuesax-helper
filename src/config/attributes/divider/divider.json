@@ -1,0 +1,28 @@
+{
+	"vs-divider/position": {
+		"description": "Determine the position of the text or icon.",
+		"optionType": "String",
+		"defaultValue": "center"
+	},
+	"vs-divider/color": {
+		"description": "Change the color of the line and the text.",
+		"optionType": "String",
+		"defaultValue": "rgba(0,0,0.1)"
+	},
+	"vs-divider/icon": {
+		"description": "Add an icon instead of the text.",
+		"optionType": "Icon class",
+		"defaultValue": "-"
+	},
+	"vs-divider/borderStyle": {
+		"description": "Determines the type of line in the component.",
+		"optionType": "String",
+    "defaultValue": "solid",
+    "options": ["solid", "dotted", "dashed"]
+	},
+	"vs-divider/iconPack": {
+		"description": "Icon Pack to be used. If not set, icon will default to Material Icons. ex. FA4 uses fa or fas, FA5 uses fas, far, or fal.",
+		"optionType": "Icon Pack Class Name",
+		"defaultValue": "material-icons"
+	}
+}

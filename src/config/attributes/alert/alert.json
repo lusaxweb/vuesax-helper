@@ -1,0 +1,38 @@
+{
+	"vs-alert/active": {
+		"description": "Determines if the component is visible.",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-alert/title": {
+		"description": "Title of the alert",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"vs-alert/closable": {
+		"description": "Determines if the alert can be closed by the user",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-alert/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Color of the alert (primary, success, danger, warning, dark, RGB, HEX)",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"vs-alert/icon": {
+		"description": "Determines the alert icon",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"vs-alert/closeIcon": {
+		"description": "Determines the close icon",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-alert/iconPack": {
+		"description": "Determines the icon pack. If not set, icon will default to Material Icons. ex. FA4 uses fa or fas, FA5 uses fas, far, or fal.",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

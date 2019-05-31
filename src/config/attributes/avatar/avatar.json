@@ -1,0 +1,51 @@
+{
+	"vs-avatar/text": {
+		"description": "If the text is very long, only the first letter is added.",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"vs-avatar/textColor": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Define the color of the Text.",
+		"optionType": "string",
+		"defaultValue": "circle"
+	},
+	"vs-avatar/size": {
+		"options": ["large", "small"],
+		"description": "the size of the avatar",
+		"optionType": "number | string: (large, small, default)",
+		"defaultValue": "-"
+	},
+	"vs-avatar/src": {
+		"description": "the address of the image for an image avatar",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"vs-avatar/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Define the color of the Avatar (does not affect the image).",
+		"optionType": "string | RGB | HEX",
+		"defaultValue": "-"
+	},
+	"vs-avatar/badge": {
+		"description": "Define if the badge is active and what is its value in number",
+		"optionType": "Boolean | Number",
+		"defaultValue": "-"
+	},
+	"vs-avatar/badgeColor": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Define the color of the Badge.",
+		"optionType": "string | RGB | HEX",
+		"defaultValue": "-"
+	},
+	"vs-avatar/icon": {
+		"description": "Define the icon within the Avatar.",
+		"optionType": "string",
+		"defaultValue": "person"
+	},
+	"vs-avatar/iconPack": {
+		"description": "Icon Pack to be used. If not set, icon will default to Material Icons. ex. FA4 uses fa or fas, FA5 uses fas, far, or fal.",
+		"optionType": "Icon Pack Class Name",
+		"defaultValue": "material-icons"
+	}
+}

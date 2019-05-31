@@ -1,0 +1,48 @@
+{
+    "Vuesax script link": {
+      "prefix": ["vsLink", "vuesaxLink"],
+      "body": [
+        "<script src=\"https://unpkg.com/vuesax\"></script>"
+      ],
+      "description": "Vuesax script link"
+    },
+    "Vuesax Css link": {
+      "prefix": ["vsCssLink", "vuesaxCssLink", "link:vuesax"],
+      "body": [
+        "<link href=\"https://unpkg.com/vuesax/dist/vuesax.css\" rel=\"stylesheet\">"
+      ],
+      "description": "Vuesax stylesheet link"
+    },
+    "Material design icons link": {
+        "prefix": "materialIconLink",
+        "body": [
+          "<link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons\" rel=\"stylesheet\">"
+        ],
+        "description": "Material Design icons link"
+    },
+    "Vuesax quick start": {
+        "prefix": ["vsQuickStart","vuesaxQuickStart"],
+        "body": [
+          "<!DOCTYPE html>",
+          "<html>",
+          "<head>",
+          "\t<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel=\"stylesheet\">",
+          "\t<link href=\"https://unpkg.com/vuesax/dist/vuesax.css\" rel=\"stylesheet\">",
+          "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">",
+          "</head>",
+          "<body>",
+          "\t<div id=\"app\">",
+          "\t\t<vs-button>Hello World Vuesax</vs-button>",
+          "\t</div>",
+          "",
+          "\t<script src=\"https://unpkg.com/vue/dist/vue.js\"></script>",
+          "\t<script src=\"https://unpkg.com/vuesax\"></script>",
+          "\t<script>",
+          "\t\tnew Vue({ el: '#app' })",
+          "\t</script>",
+          "</body>",
+          "</html>"
+        ],
+        "description": "Vuesax quick start - Vuesax"
+      }
+}

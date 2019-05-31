@@ -1,0 +1,68 @@
+export default {
+  alert: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Feedback',
+    title: 'Alert',
+    tag: 'vs-alert',
+  },
+  avatar: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Data Display',
+    title: 'Avatar',
+    tag: 'vs-avatar',
+  },
+  breadcrumb: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Navigation',
+    title: 'Breadcrumb',
+    tag: 'vs-breadcrumb',
+  },
+  button: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'General',
+    title: 'Button',
+    tag: 'vs-button',
+  },
+  card: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Data Display',
+    title: 'Card',
+    tag: 'vs-card',
+    cols: 1,
+  },
+  checkbox: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Data Entry',
+    title: 'Checkbox',
+    tag: 'vs-checkbox',
+  },
+  chip: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Data Display',
+    title: 'Chip',
+    tag: 'vs-chip',
+  },
+  collapse: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'Data Display',
+    title: 'Collapse',
+    tag: 'vs-collapse',
+    cols: 1,
+  },
+  divider: {
+    category: 'Components',
+    subtitle: 'Vuesax Componet',
+    type: 'General',
+    title: 'Divider',
+    tag: 'vs-divider',
+    cols: 1,
+  }
+}

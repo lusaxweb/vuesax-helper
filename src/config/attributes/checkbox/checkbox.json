@@ -1,0 +1,23 @@
+{
+	"vs-checkbox/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Color options for checkBox.",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-checkbox/vsValue": {
+		"description": "Value if different from a boolean..",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-checkbox/icon": {
+		"description": "Determine the checkBox icon",
+		"optionType": "String",
+		"defaultValue": "-"
+	},
+	"vs-checkbox/iconPack": {
+		"description": "Determines if the icon is set after the text",
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+}

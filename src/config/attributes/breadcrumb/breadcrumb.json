@@ -1,0 +1,23 @@
+{
+	"vs-breadcrumb/items": {
+		"description": "The items that will construct the breadcrumb",
+		"optionType": "Array",
+		"defaultValue": "-"
+	},
+	"vs-breadcrumb/separator": {
+		"description": "Separator dividing the breadcrumb links",
+		"optionType": "String",
+		"defaultValue": "/"
+	},
+	"vs-breadcrumb/align": {
+		"description": "Align the breadcrumb to the left, center or right.",
+		"optionType": "[]",
+		"defaultValue": "left"
+	},
+	"vs-breadcrumb/color": {
+		"options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Change the color of the breadcrumb links",
+		"optionType": "string",
+		"defaultValue": ""
+	}
+}

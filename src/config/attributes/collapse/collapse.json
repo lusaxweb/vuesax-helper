@@ -1,0 +1,25 @@
+{
+	"vs-collapse/accordion": {
+		"description": "Determines whether all the others are closed when an item is opened.",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-collapse/type": {
+		"options": [
+			"default", "shadow", "border", "margin"
+		],
+		"description": "Change the style of the items.",
+		"optionType": "String",
+		"defaultValue": "false"
+	},
+	"vs-collapse/openHover": {
+		"description": "Determines if items are opened when hovering.",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"vs-collapse/iconPack": {
+		"description": "Determines if the icon is set after the text",
+		"optionType": "String",
+		"defaultValue": "-"
+	}
+}
