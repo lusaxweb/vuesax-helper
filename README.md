@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://lusaxweb.github.io/vuesax/">
+    <img width="40%" src="https://raw.githubusercontent.com/lusaxweb/vuesax/master/public/vuesax-logo-beta.png" alt="vuesax" />
+   </a>
+  </p>
+
 # vuesax-helper
 
 **vuesax-helper** is a VS Code extension for [Vuesax](https://lusaxweb.github.io/vuesax/).
