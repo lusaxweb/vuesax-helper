@@ -64,7 +64,7 @@
         "this.\\$vs.dialog({",
         "\ttitle: '${1:title}',",
         "\ttext: '${2:string}',",
-        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}',",
         "\taccept: () => {",
         "\t\t${4:console.log('Accept Dialog')}",
         "\t}",
@@ -79,10 +79,10 @@
         "\ttype: 'confirm',",
         "\ttitle: '${1:title}',",
         "\ttext: '${2:string}',",
-        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|}'",
+        "\tcolor: '${3|primary,success,danger,warning,dark,rgb(31\\,116\\,255),#1f74ff|},'",
         "\taccept: () => {",
         "\t\t${4:console.log('Accept Dialog')}",
-        "\t}",
+        "\t},",
         "\tcancel: () => {",
         "\t\t${4:console.log('Cancel Dialog')}",
         "\t}",
@@ -90,5 +90,5 @@
       ],
       "description": "dialog confirm"
     },
-    
+
   }

@@ -5,6 +5,7 @@
 		"defaultValue": "center"
 	},
 	"vs-divider/color": {
+    "options": ["primary", "success", "danger", "warning", "dark", "light"],
 		"description": "Change the color of the line and the text.",
 		"optionType": "String",
 		"defaultValue": "rgba(0,0,0.1)"

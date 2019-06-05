@@ -16,7 +16,7 @@
     "Material design icons link": {
         "prefix": "materialIconLink",
         "body": [
-          "<link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons\" rel=\"stylesheet\">"
+          "<link href=\"https://fonts.googleapis.com/css?family=Material+Icons\" rel=\"stylesheet\">"
         ],
         "description": "Material Design icons link"
     },
@@ -26,7 +26,7 @@
           "<!DOCTYPE html>",
           "<html>",
           "<head>",
-          "\t<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel=\"stylesheet\">",
+          "\t<link href='https://fonts.googleapis.com/css?family=Material+Icons' rel=\"stylesheet\">",
           "\t<link href=\"https://unpkg.com/vuesax/dist/vuesax.css\" rel=\"stylesheet\">",
           "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui\">",
           "</head>",

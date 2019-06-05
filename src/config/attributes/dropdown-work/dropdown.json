@@ -1,0 +1,8 @@
+{
+	"vs-dropdown/color": {
+    "options": ["primary", "success", "danger", "warning", "dark", "light"],
+		"description": "Change the color of the dropdown.",
+		"optionType": "String",
+		"defaultValue": "primary"
+	},
+}
